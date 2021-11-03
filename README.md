@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Order Summary Card Solution]( https://www.frontendmentor.io/solutions/responsive-order-summary-page-with-flexbox-bIjGYBIuR)
+-  Solution URL: [Order Summary Card Solution](https://www.frontendmentor.io/solutions/responsive-order-summary-card-with-flexbox-JtkdFSBcD)
 - Live Site URL: [Order Summary Card](https://mmeteb9.github.io/order-summary-card/)
 
 
