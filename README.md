@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+#  Responsive Order summary card
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -35,8 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-  Solution URL: [Order Summary Card Solution]( https://www.frontendmentor.io/solutions/responsive-order-summary-page-with-flexbox-bIjGYBIuR)
+- Live Site URL: [Order Summary Card](https://mmeteb9.github.io/order-summary-card/)
+
 
 ## My process
 
