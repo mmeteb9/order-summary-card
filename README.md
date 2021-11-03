@@ -12,10 +12,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -28,10 +25,10 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop Screenshot
-![](images/page-screenshot.jpg)
+![](./images/page-screenshot.png)
 
 #### Mobile Screenshot
-![](images/mobile-screenshot.jpg)
+![](./images/mobile-screenshot.jpg)
 
 ### Links
 
