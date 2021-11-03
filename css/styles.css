@@ -1,0 +1,135 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2.5em 0;
+}
+
+.orderSummaryCard {
+  background-color: #ffffff;
+  min-width: 300px;
+  width: 50%;
+  max-width: 410px;
+  font-size: 1rem;
+  border-radius: 1.5em;
+  text-align: center;
+  box-shadow: 0px 0px 5px hsl(224deg 23% 55%)
+}
+
+.orderSummaryCard p {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.95rem;
+}
+
+.orderSummaryCard img:first-of-type {
+  border-top-right-radius: 1.5em;
+  border-top-left-radius: 1.5em;
+}
+
+.orderSummaryCard .orderSummaryData {
+  padding: 1em 2em;
+}
+
+.orderSummaryCard .orderPlan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0.75em;
+  padding: 0.5em 1em;
+  margin: 1.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderSummaryCard .orderPlan h3 {
+  font-size: 0.85rem;
+  margin: 0.5em 0.5em;
+}
+
+.orderSummaryCard .orderPlan p {
+  font-size: 0.75rem;
+  margin: 0.25em 0;
+}
+
+.orderSummaryCard .orderPlan a {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  transition: all 0.25s;
+}
+
+.orderSummaryCard .orderPlan a:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.orderSummaryCard .orderSummary-btns .btn {
+  display: block;
+  margin: 1em auto;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 1.5em;
+  width: 80%;
+  border-radius: 0.75em;
+  border: none;
+  letter-spacing: 0.25px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.orderSummaryCard .orderSummary-btns .proceed-btn {
+  background: hsl(245, 75%, 52%);
+  color: #fff;
+  box-shadow: 0 12px 15px hsl(225, 100%, 94%);
+}
+
+.orderSummaryCard .orderSummary-btns .proceed-btn:hover {
+  background-color: hsla(245, 75%, 52%, 0.75)
+}
+
+.orderSummaryCard .orderSummary-btns .cancel-btn {
+  opacity: 0.75;
+}
+
+.orderSummaryCard .orderSummary-btns .cancel-btn:hover {
+  opacity: 1;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-weight: 700;
+}
+
+@media screen and (max-width:450px) {
+  html {
+    font-size: 95%;
+  }
+
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+  }
+}
